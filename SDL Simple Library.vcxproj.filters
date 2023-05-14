@@ -16,6 +16,12 @@
     <Filter Include="Resource Files\Core">
       <UniqueIdentifier>{b2b8d367-ef84-457d-bc43-02fcf846293b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Graphics">
+      <UniqueIdentifier>{cb023a74-762e-4c4b-b05f-12d6e38d243e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Graphics\OpenGL">
+      <UniqueIdentifier>{15247df0-610c-4175-a3e2-76d917997625}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,10 +30,19 @@
     <ClCompile Include="Sources\Core\SDLCore.cpp">
       <Filter>Resource Files\Core</Filter>
     </ClCompile>
+    <ClCompile Include="Sources\Graphics\OpenGL\OpenGL.cpp">
+      <Filter>Resource Files\Graphics\OpenGL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sources\Core\SDLCore.h">
       <Filter>Resource Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Graphics\GraphicsAPI.h">
+      <Filter>Resource Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Graphics\OpenGL\OpenGL.h">
+      <Filter>Resource Files\Graphics\OpenGL</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
